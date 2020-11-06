@@ -22,7 +22,6 @@ export default class App extends React.Component {
   }
 
   infiniteScroll = () => {
-    console.log('reached')
     if (window.innerHeight + document.documentElement.scrollTop
       === document.documentElement.offsetHeight) {
       let newPage = this.state.page;

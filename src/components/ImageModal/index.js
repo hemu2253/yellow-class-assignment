@@ -5,7 +5,6 @@ import './style.css';
 class ImageModal extends React.Component {
   render() {
     const { presentImgId, imageUrls, presentImgIndex } = this.props;
-    console.log(imageUrls.length, presentImgIndex)
     return (
       <div>
         <div className="modal">
